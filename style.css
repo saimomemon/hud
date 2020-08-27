@@ -157,6 +157,158 @@ a:visited{
 
 
 
-@media screen and (min-width: 375px) {
+/* @media only screen and (min-width: 375px) {
+  .background{
+    min-height: 88vh;
+    background-image: url(images/bg-hero-desktop.svg);
+    padding: 8vh 3vw;
+    margin-bottom: 20vh;
+  }
+
+  .logo {
+    height: 5vh;
+  }
+
+  .btnup {
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+
+  .container{
+    margin: 5vh 0;
+  }
+
+  .hero{
+    display: inline-block;
+    width: 35vw;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .subhero {
+    display: inline-block;
+    width: 35vw;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .btnm {
+    display: inline-block;
+    width: 20vw;
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  .mockup {
+    float: right;
+    width: 50vw;
+  }
+
+  .left {
+    display: inline-block;
+    width: 35vw;
+  }
   
-}
+  .right{
+    float: right;
+  }
+
+  .card {
+    margin: 7vh 15vh;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .illustrations {
+    width: 30vw;
+  }
+
+  .contain {
+    display: flex;
+  }
+  
+  .c1_left {
+    display: inline-block;
+    width: 35vw;
+    align-self: center;
+    padding: 5vw;
+  }
+  .c1_right {
+    width: 30vw;
+    float: right;
+  }
+  .c2_right {
+    float: right;
+    width: 35vw;
+    align-self: center;
+  }
+  .c2_left {
+    width: 30vw;
+    margin: 0 5vw;
+  }
+  
+  .c3_left {
+    display: inline-block;
+    width: 35vw;
+    align-self: center;
+    padding: 5vw;
+  }
+  .c3_right {
+    width: 30vw;
+    float: right;
+  }
+
+  .card_head {
+    font-size: 2rem;
+  }
+
+  .trump {
+    margin: 2vh 45vh;
+    padding: 10vh 2vh;
+    bottom: -20vh;
+  }
+
+  .trump p {
+    font-size: 2rem;
+  }
+
+  .btnbtm {
+    display: block;
+  }
+  
+  .trump div {
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding: 25vh 3vh 0;
+    font-size: 1rem;
+  }
+
+  .btmlogo {
+    height: 5vh;
+  }
+
+  .copy {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .item1 { grid-area: a; }
+  .item2 { grid-area: b; }
+  .item3 { grid-area: c; }
+  .item4 { grid-area: d; }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'a b c d';
+    grid-gap: 6vw;
+  }
+  
+  .grid-container > div {
+    padding: 20px;
+    align-self: end;
+  }
+
+} */

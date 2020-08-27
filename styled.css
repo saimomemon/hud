@@ -20,64 +20,61 @@ a:visited{
 }
 
 .background {
+  min-height: 88vh;
   background-color: hsl(193, 100%, 96%);
   background-image: url(images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 4vh 3vw;
-  margin-bottom: 10vh;
+  padding: 8vh 3vw;
+  margin-bottom: 20vh;
 }
 
 .logo {
   display: inline-block;
-  height: 2.5vh;
-}
-
-.logo::after {
-  clear: both;
+  height: 5vh;
 }
 
 .btnup {
   float: right;
-  font-size: 0.67rem;
   background: white;
   margin-right: 4vw;
-  padding: 5px 20px;
+  padding: 10px 25px;
   border-radius: 25px;
   box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.4);
   background: #ffffff;
   text-decoration: none;
   overflow: hidden;
 }
-.btnup::after {
-  clear: both;
+
+.container{
+  margin: 5vh 0;
 }
 
 .hero {
   display: inline-block;
+  width: 35vw;
   font-family: Poppins;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
-  text-align: center;
   margin: 13vh auto 4vh;
 }
 
 .subhero {
   display: inline-block;
-  text-align: center;
-  padding: 0 1vw;
+  width: 35vw;
+  font-size: 1.2rem;
   margin: 0;
 }
 
 .btnm {
   display: inline-block;
   width: 20vw;
-  font-size: 0.78rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
   background: hsl(322, 100%, 66%);
-  padding: 12px;
+  padding: 20px;
   margin: 5vh auto 8vh;
   border-radius: 55px;
   
@@ -85,7 +82,145 @@ a:visited{
 
 .mockup {
   float: right;
-  width: 65vw;
+  width: 50vw;
   display: block;
   margin: 4vh auto 1.8vh;
+}
+
+.left {
+  display: inline-block;
+  width: 35vw;
+}
+
+.right{
+  float: right;
+}
+
+.card {
+  margin: 7vh 15vh;
+  padding: 3vh;
+  color:hsl(208, 11%, 55%);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.4);
+}
+
+.illustrations {
+  width: 30vw;
+  display: block;
+  margin: 6vh auto;
+}
+
+.contain {
+  display: flex;
+}
+
+.c1_left {
+  display: inline-block;
+  width: 35vw;
+  align-self: center;
+  padding: 5vw;
+}
+.c1_right {
+  width: 30vw;
+  float: right;
+}
+.c2_right {
+  float: right;
+  width: 35vw;
+  align-self: center;
+}
+.c2_left {
+  width: 30vw;
+  margin: 0 5vw;
+}
+
+.c3_left {
+  display: inline-block;
+  width: 35vw;
+  align-self: center;
+  padding: 5vw;
+}
+.c3_right {
+  width: 30vw;
+  float: right;
+}
+
+.card_head {
+  font-size: 2rem;
+  font-weight: 900;
+  color: black;
+}
+
+
+
+
+.trump {
+  margin: 2vh 45vh;
+  padding: 10vh 2vh;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.4);
+  position: relative;
+  bottom: -20vh;
+  z-index: 6;
+}
+
+.trump p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4vh;
+}
+
+.btnbtm {
+  display: block;
+}
+
+.trump div {
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: #ffffff;
+  padding: 25vh 3vh 0;
+  font-size: 1rem;
+}
+
+.btmlogo {
+  display: block;
+  height: 5vh;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.social_links {
+  margin: 8vh auto 5vh;
+}
+.social_links i{
+  margin: 1vw;
+}
+
+.copy {
+  font-size: 16px;
+}
+
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'a b c d';
+  grid-gap: 6vw;
+}
+
+.grid-container > div {
+  padding: 20px;
+  align-self: end;
 }
