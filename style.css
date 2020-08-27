@@ -1,0 +1,162 @@
+:root {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+.background {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images/bg-hero-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 4vh 3vw;
+  margin-bottom: 10vh;
+}
+
+.logo {
+  display: inline-block;
+  height: 2.5vh;
+}
+
+.btnup {
+  float: right;
+  font-size: 0.67rem;
+  background: white;
+  margin-right: 4vw;
+  padding: 5px 20px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px -5px rgba(0,0,0,0.4);
+  background: #ffffff;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.hero {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 13vh auto 4vh;
+}
+
+.subhero {
+  text-align: center;
+  padding: 0 1vw;
+  margin: 0;
+}
+
+.btnm {
+  display: block;
+  width: 60vw;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  background: hsl(322, 100%, 66%);
+  padding: 12px;
+  margin: 5vh auto 8vh;
+  border-radius: 55px;
+  
+}
+
+.mockup {
+  width: 85vw;
+  display: block;
+  margin: 4vh auto 1.8vh;
+}
+
+.card {
+  text-align: center;
+  margin: 7vh 3vh;
+  padding: 3vh;
+  font-size: .9rem;
+  color:hsl(208, 11%, 55%);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.4);
+}
+
+.illustrations {
+  width: 70vw;
+  display: block;
+  margin: 6vh auto;
+}
+
+.card_head {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: black;
+}
+
+.trump {
+  margin: 2vh;
+  margin-top: -3vh;
+  padding: 5vh 2vh;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.4);
+  position: relative;
+  bottom: -15vh;
+  z-index: 6;
+}
+
+.trump p {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 4vh;
+}
+
+.trump div {
+  margin: 0 auto 2vh;
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: #ffffff;
+  padding: 9rem 3vh 10vh;
+}
+
+.btmlogo {
+  display: block;
+  height: 4vh;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.social_links {
+  width: 21vw;
+  margin: 8vh auto 5vh;
+}
+.social_links i{
+  margin: 1vw;
+}
+
+.copy {
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+
+@media screen and (min-width: 375px) {
+  
+}
